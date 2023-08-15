@@ -13,6 +13,7 @@ public class Task2 {
         System.out.println("Введите второе число: ");
         double num2 = sc.nextDouble();
         divide(num1, num2);
+        sc.close();
     }
 
     public static void divide(double num1, double num2){

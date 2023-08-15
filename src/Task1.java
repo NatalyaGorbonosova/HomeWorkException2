@@ -10,6 +10,7 @@ public class Task1 {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         checkPositive(number);
+        sc.close();
     }
 
     public static void checkPositive(int number) throws InvalidNumberException {
